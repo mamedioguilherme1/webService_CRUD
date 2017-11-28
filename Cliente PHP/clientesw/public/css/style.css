@@ -1,0 +1,67 @@
+button {
+    display:block;
+    width:80px;
+    height:26px;
+    font-weight:bold;
+    color:#f00;
+    background:url(imagem-do-botao.png) no-repeat, left top;
+    border:none;
+}
+.footer
+{
+	margin-top: 4%;
+	position: relative;
+}
+.input-sum
+{
+	margin-top: 5px;
+	left: 33%;
+}
+
+.btn
+{
+	margin-top: 10px;
+	border: none;
+	background-color: #363636;
+}
+.btnEditar
+{
+	padding-left: 33%;
+	margin-top: -5px;
+}
+.btn:hover
+{
+	background-color: black;	
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+
+.lBuscar
+{
+	margin-left: 15%;
+}
+
+.listarGrid
+{
+	margin-left: 28%;
+}
+
+.idActualizar
+{
+	margin-right: 30%;
+}
+
+.mIndex
+{
+	
+}

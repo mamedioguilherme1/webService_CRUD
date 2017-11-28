@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://sw.model/" name="SWEscuelaService" targetNamespace="http://sw.model/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:7101/ServidorEscuela-ServidorEscuela-context-root/SWEscuelaPort?xsd=1" namespace="http://sw.model/" />
+    </xsd:schema>
+  </types>
+  <message name="listarEscuela">
+    <part name="parameters" element="tns:listarEscuela" />
+  </message>
+  <message name="listarEscuelaResponse">
+    <part name="parameters" element="tns:listarEscuelaResponse" />
+  </message>
+  <message name="addEscuela">
+    <part name="parameters" element="tns:addEscuela" />
+  </message>
+  <message name="addEscuelaNET">
+    <part name="parameters" element="tns:addEscuelaNET" />
+  </message>
+  <message name="eliminarEscuela">
+    <part name="parameters" element="tns:eliminarEscuela" />
+  </message>
+  <message name="editarSW">
+    <part name="parameters" element="tns:editarSW" />
+  </message>
+  <message name="buscarSW">
+    <part name="parameters" element="tns:buscarSW" />
+  </message>
+  <message name="buscarSWResponse">
+    <part name="parameters" element="tns:buscarSWResponse" />
+  </message>
+  <portType name="SWEscuela">
+    <operation name="listarEscuela">
+      <input message="tns:listarEscuela" />
+      <output message="tns:listarEscuelaResponse" />
+    </operation>
+    <operation name="addEscuela">
+      <input message="tns:addEscuela" />
+    </operation>
+    <operation name="addEscuelaNET">
+      <input message="tns:addEscuelaNET" />
+    </operation>
+    <operation name="eliminarEscuela">
+      <input message="tns:eliminarEscuela" />
+    </operation>
+    <operation name="editarSW">
+      <input message="tns:editarSW" />
+    </operation>
+    <operation name="buscarSW">
+      <input message="tns:buscarSW" />
+      <output message="tns:buscarSWResponse" />
+    </operation>
+  </portType>
+  <binding name="SWEscuelaPortBinding" type="tns:SWEscuela">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="listarEscuela">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="addEscuela">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+    </operation>
+    <operation name="addEscuelaNET">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+    </operation>
+    <operation name="eliminarEscuela">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+    </operation>
+    <operation name="editarSW">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+    </operation>
+    <operation name="buscarSW">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="SWEscuelaService">
+    <port name="SWEscuelaPort" binding="tns:SWEscuelaPortBinding">
+      <soap:address location="http://localhost:7101/ServidorEscuela-ServidorEscuela-context-root/SWEscuelaPort" />
+    </port>
+  </service>
+</definitions>

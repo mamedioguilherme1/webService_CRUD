@@ -1,0 +1,15 @@
+C:\Users\Guilherme\Desktop\EscuelaSW\Cliente\ClienteEscuela\bin\Debug\ClienteEscuela.exe.config
+C:\Users\Guilherme\Desktop\EscuelaSW\Cliente\ClienteEscuela\bin\Debug\ClienteEscuela.exe
+C:\Users\Guilherme\Desktop\EscuelaSW\Cliente\ClienteEscuela\bin\Debug\ClienteEscuela.pdb
+C:\Users\Guilherme\Desktop\EscuelaSW\Cliente\ClienteEscuela\obj\Debug\ClienteEscuela.csprojResolveAssemblyReference.cache
+C:\Users\Guilherme\Desktop\EscuelaSW\Cliente\ClienteEscuela\obj\Debug\ClienteEscuela.Properties.Resources.resources
+C:\Users\Guilherme\Desktop\EscuelaSW\Cliente\ClienteEscuela\obj\Debug\ClienteEscuela.csproj.GenerateResource.Cache
+C:\Users\Guilherme\Desktop\EscuelaSW\Cliente\ClienteEscuela\obj\Debug\ClienteEscuela.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Desktop\EscuelaSW\Cliente\ClienteEscuela\obj\Debug\ClienteEscuela.exe
+C:\Users\Guilherme\Desktop\EscuelaSW\Cliente\ClienteEscuela\obj\Debug\ClienteEscuela.pdb
+C:\Users\Guilherme\Desktop\EscuelaSW\Cliente\ClienteEscuela\obj\Debug\ClienteEscuela.GUIEliminarEscuela.resources
+C:\Users\Guilherme\Desktop\EscuelaSW\Cliente\ClienteEscuela\obj\Debug\ClienteEscuela.GUIInsertarEscuela.resources
+C:\Users\Guilherme\Desktop\EscuelaSW\Cliente\ClienteEscuela\obj\Debug\ClienteEscuela.GUIListarEscuela.resources
+C:\Users\Guilherme\Desktop\EscuelaSW\Cliente\ClienteEscuela\obj\Debug\ClienteEscuela.GUIConsultarEscuela.resources
+C:\Users\Guilherme\Desktop\EscuelaSW\Cliente\ClienteEscuela\obj\Debug\ClienteEscuela.GUIPrincipal.resources
+C:\Users\Guilherme\Desktop\EscuelaSW\Cliente\ClienteEscuela\obj\Debug\ClienteEscuela.GUIActualizarEscuela.resources
